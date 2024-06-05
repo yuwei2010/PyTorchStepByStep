@@ -1,11 +1,11 @@
-
+from tqdm import tqdm
 # Defines number of epochs
 n_epochs = 1000
 
 losses = []
 
 # For each epoch...
-for epoch in range(n_epochs):
+for epoch in tqdm(range(n_epochs)):
     # inner loop
     mini_batch_losses = []
     for x_batch, y_batch in train_loader:

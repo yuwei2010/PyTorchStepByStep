@@ -1,4 +1,4 @@
-
+print('Starting...')
 # This is redundant now, but it won't be when we introduce
 # Datasets...
 device = 'cuda' if torch.cuda.is_available() else 'cpu'

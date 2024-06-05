@@ -1,8 +1,8 @@
-
+from tqdm import tqdm
 # Defines number of epochs
 n_epochs = 1000
 
-for epoch in range(n_epochs):
+for epoch in tqdm(range(n_epochs)):
     # Sets model to TRAIN mode
     model.train()
 
